@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Straight Buy</string>
+    <string name="title_activity_product_page">ProductPageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="skip">SKIP</string>
+    <string name="signupmessage">DON\'T HAVE AN ACCOUNT\?\nSIGN UP</string>
+    <string name="sendnotification">SEND NOTIFICATION</string>
+
+    <string name="notification">NOTIFICATION</string>
+    <string name="wishlist">WISHLIST</string>
+    <string name="orders">MY ORDERS</string>
+    <string name="contact">CONTACT US</string>
+    <string name="share">SHARE</string>
+    <string name="rate">RATE US</string>
+    <string name="cart">MY CART</string>
+    <string name="help">HELP</string>
+    <string name="about">ABOUT US</string>
+    <string name="scanqr">SCAN QR CODE</string>
+    <string name="name">NAME</string>
+    <string name="contactno">CONTACT NUMBER</string>
+    <string name="email">EMAIL</string>
+    <string name="fullname">FULL NAME</string>
+    <string name="confirmpassword">CONFIRM PASSWORD</string>
+    <string name="signup">SIGN UP</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="addcategory">ADD CATEGORY</string>
+    <string name="addproduct">ADD PRODUCT</string>
+    <string name="vieworders">VIEW ORDERS</string>
+    <string name="viewdeliveredorders">VIEW DELIVERED ORDERS</string>
+    <string name="categoryname">CATEGORY NAME</string>
+    <string name="productname">PRODUCT NAME</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="price">PRICE</string>
+    <string name="oprice">MRP</string>
+    <string name="discount">DISCOUNT</string>
+    <string name="category">CATEGORY</string>
+    <string name="selectimage">SELECT IMAGE</string>
+    <string name="addsliderimages">ADD SLIDER IMAGES</string>
+    <string name="categories">CATEGORIES</string>
+    <string name="signin">SIGN IN</string>
+    <string name="choose">CHOOSE</string>
+    <string name="addsliderimage">ADD SLIDER IMAGE</string>
+    <string name="subcategory">SUBCATEGORY</string>
+
+    <string name="aboutUsInfo">This online store is created to focus on the rural area development. Now retailers can increase their
+    sales by posting their products here and customers can buy those quality products saving  money and a lot time.</string>
+
+    <string name="developedBy">DEVELOPED BY:</string>
+    <string name="developersname">SOFT ANDROID DEVELOPERS</string>
+
+    <string name="meetusat">MEET US AT</string>
+
+    <string name="filters">FILTERS</string>
+    <string name="addsubcategory">ADD SUBCATEGORY</string>
+    <string name="headerNotification">HEADER NOTIFICATION</string>
+    <string name="notificationDescription">NOTIFICATION DESCRIPTION</string>
+    <string name="addNotification">ADD NOTIFICATION</string>
+    <string name="addtocart">ADD TO CART</string>
+    <string name="buynow">BUY NOW</string>
+    <string name="emptycart">YOUR CART IS EMPTY.\nSHOP NOW!!</string>
+    <string name="cartTotal">CART TOTAL</string>
+
+    <string name="continueText">CONTINUE</string>
+
+</resources>

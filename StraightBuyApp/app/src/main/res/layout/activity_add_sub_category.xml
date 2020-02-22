@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSubCategoryActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32sp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="14sp"
+        android:layout_marginTop="12sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/category"
+            android:layout_marginLeft="4sp"
+            android:layout_marginRight="8sp"/>
+
+        <Spinner
+            android:id="@+id/categorySpinnerDropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="24sp"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/addsubcategory_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/categoryname"
+        android:layout_marginTop="2sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addsubcategory_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/addcategory"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

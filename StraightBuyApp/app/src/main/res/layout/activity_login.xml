@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:id="@+id/main_linaerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="184sp"
+                android:layout_height="184sp"
+                android:src="@drawable/cartlogo"
+                android:layout_marginBottom="44sp"
+                android:layout_marginTop="24sp" />
+            <EditText
+                android:id="@+id/username_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:layout_marginBottom="24sp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"/>
+            <EditText
+                android:id="@+id/password_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:layout_marginBottom="42sp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"/>
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="122sp"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/signup_loginpage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signupmessage"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginTop="12sp"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:id="@+id/skip_loginpage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skip"
+                android:textSize="18sp"
+                android:layout_marginTop="18sp"
+                android:textColor="@color/blue"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

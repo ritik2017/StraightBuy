@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addsliderimages_menu"
+        android:title="@string/addsliderimages"/>
+    <item
+        android:id="@+id/send_notification"
+        android:title="@string/sendnotification"/>
+    <item
+        android:id="@+id/addcategory_menu"
+        android:title="@string/addcategory"/>
+    <item
+        android:id="@+id/addsubcategory_menu"
+        android:title="@string/addsubcategory"/>
+    <item
+        android:id="@+id/addproduct_menu"
+        android:title="@string/addproduct" />
+    <item
+        android:id="@+id/scanqr_menu"
+        android:title="@string/scanqr"/>
+
+</menu>

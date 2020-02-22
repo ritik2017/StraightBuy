@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "930649902494",
+    "firebase_url": "https://straightbuy-a071c.firebaseio.com",
+    "project_id": "straightbuy-a071c",
+    "storage_bucket": "straightbuy-a071c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930649902494:android:ec80b6431bccc31d",
+        "android_client_info": {
+          "package_name": "in.straightbuy.www.straightbuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930649902494-bh2hl7acnebuboo7io7aagh44vsaalc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.straightbuy.www.straightbuy",
+            "certificate_hash": "de3c2501a0640d2967f6693c7ef1cfe7d64c7752"
+          }
+        },
+        {
+          "client_id": "930649902494-9r9hdsg5u7gj275urmhogm3bserqu7kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGJuKQYfuehUmO0JGt-1ta8S2MVHvyDug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930649902494-9r9hdsg5u7gj275urmhogm3bserqu7kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

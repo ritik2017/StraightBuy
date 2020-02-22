@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4sp">
+
+
+    <ImageView
+        android:id="@+id/image_listview"
+        android:layout_width="match_parent"
+        android:layout_height="132sp"
+        android:padding="2sp"
+        android:layout_weight="3"
+        android:src="@drawable/cartlogo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/producttext_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT"
+            android:layout_marginTop="4sp"
+            android:textSize="24sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/price_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE"
+            android:layout_marginTop="2sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="bottom">
+
+
+            <TextView
+                android:id="@+id/oprice_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OPRICE"
+                android:layout_marginRight="4sp" />
+
+            <TextView
+                android:id="@+id/discount_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:text="DISCOUNT" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

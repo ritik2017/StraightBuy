@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSliderImageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32sp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="14sp"
+            android:layout_marginTop="12sp">
+
+            <Button
+                android:id="@+id/choose_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/choose"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/selectimage_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/selectimage"
+                android:layout_marginLeft="8sp"
+                android:layout_marginRight="8sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_choosesliderimage"
+            android:layout_width="match_parent"
+            android:layout_height="224sp"
+            android:padding="4sp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addsliderimage"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

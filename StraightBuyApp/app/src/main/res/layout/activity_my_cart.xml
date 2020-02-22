@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyCartActivity">
+
+    <ListView
+        android:id="@+id/listview_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/emptycart_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/emptycart_image"
+            android:layout_width="124sp"
+            android:layout_height="124sp"
+            android:src="@drawable/mycartempty"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emptycart"
+            android:gravity="center"
+            android:layout_marginTop="8sp"
+            android:textSize="24sp"
+            android:textColor="#777777"/>
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/bottomLayout_linearLayout"
+       android:layout_width="match_parent"
+       android:layout_height="64sp"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"
+       android:background="@drawable/background"
+       android:weightSum="2">
+
+       <TextView
+           android:id="@+id/cartTotal_textview"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/cartTotal"
+           android:textSize="24sp"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:layout_gravity="center"/>
+
+       <Button
+           android:id="@+id/continue_button"
+           android:layout_width="wrap_content"
+           android:layout_height="52sp"
+           android:text="@string/continueText"
+           android:layout_weight="1"
+           android:background="@color/colorPrimary"
+           android:layout_gravity="center"
+           android:textColor="#ffffff"/>
+
+
+   </LinearLayout>
+
+</RelativeLayout>
